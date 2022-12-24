@@ -2,15 +2,20 @@
 
 .navCont{
     position: relative;
-    display: flex;
-    width: 90%;
-    justify-content: space-between;
-    margin: 0 auto;
-    max-height: 5rem;
+    /* display: flex; */
+    width:100%;
+    /* justify-content: space-between; */
+    /* margin: 0 auto; */
+    /* max-height: 5rem; */
+    
+    padding-left:120px;
+    padding-right:120px;
 
 }
 
-
+.nav-links{
+    font-size:10px !important;
+}
 
 
 .imgCont{
@@ -20,21 +25,15 @@
 .imgContent{
     position: absolute;
     z-index: 1;
-    height: 7vw;
+    height: 6vw;
 
 }
 
 
 
-.fIcon{
-    width: 30px;
-    height: 30px;
-    padding: 5px 5px;
-    /* transform: translateY(-px); */
-    transform: translate(-6px, -1px);
-}
 
-@media screen and (max-width: 960px) {
+
+@media screen and (max-width: 620px) {
     .navCont{
         position: relative;
         display: flex;
@@ -42,14 +41,20 @@
         justify-content: space-between;
         margin: 0 auto;
         max-height: 5rem;
-    
     }
 
+.navCont{
+    
+    padding-left:0px;
+    padding-right:1px;
+
+}
     .imgContent{
-        position: absolute;
+        position: relative;
         z-index: 1;
         height: 16vw;
-    
+        float:right !important;
+
     }
 
 }
