@@ -376,32 +376,24 @@
   height: 900px;
   background: $lightblue;
   color: #fff;
-  @media screen and (max-width: 620px) {
-    height: fit-content;
-    padding-left: 0 !important;
-    padding-bottom: 30px !important;
-  }
-  img {
-    @media screen and (max-width: 620px) {
-      display: none;
+@media screen and (max-width:620px){
+  height:fit-content;
+  padding-left:0;
+    }
+  img{
+    @media screen and (max-width:620px){
+      display:none;
     }
   }
   h1 {
     font-size: 60px !important;
     margin-top: 30px;
-     @media screen and (max-width: 620px) {
-     font-size: 40px !important;
-    }
   }
   .logo-img {
     height: 60px;
     width: 60px;
     margin-right: 20px;
     margin-top: 30px;
-     @media screen and (max-width: 620px) {
-
-          margin-left:22%;
-  display:block !important;  }
   }
   .carousel {
     position: absolute;
@@ -417,18 +409,11 @@
     width: 500px !important;
     @media screen and (max-width: 620px) {
       height: fit-content;
-      width: 400px !important;
     }
   }
 
   .blog-button {
-    margin-top: 110%;
-          margin-left: 22%;
-
-    @media screen and (max-width: 620px) {
-      margin-top: 140%;
-  
-    }
+    margin-top: 120%;
   }
 
   .carousel-control-next-icon {
@@ -436,9 +421,6 @@
     background-color: $skyblue;
     padding: 5px 20px;
     height: 1.5rem !important;
-    @media screen and (max-width: 620px) {
-      display: none;
-    }
   }
   .carousel-control-prev-icon {
     margin-top: 650px;
@@ -446,47 +428,27 @@
     background-color: $skyblue;
     padding: 5px 20px;
     height: 1.5rem !important;
-    @media screen and (max-width: 620px) {
-      display: none;
-    }
   }
 }
 .atheletics-slider-container {
   height: 900px;
   background: #fff;
   color: grey;
-  .athletics-inner {
-    padding: 40px;
-    @media screen and (max-width: 620px) {
-      padding: 0 !important;
-      
+@media screen and (max-width:620px){
+  height:fit-content;
+    }
+  img{
+    @media screen and (max-width:620px){
+      display:none;
     }
   }
-  @media screen and (max-width: 620px) {
-    height: fit-content;
-  }
-  img {
-    @media screen and (max-width: 620px) {
-      display: none;
-    }
-  }
-  span {
-    color: $lightblue;
-    font-size: 80px;
-    margin-top: -20px;
-    @media screen and (max-width: 620px) {
-     font-size: 60px !important;
-          margin-left:17%;
+span{color:$lightblue; font-size:80px;    margin-top: -20px;
 
-    }
-  }
+}
   h1 {
     font-size: 60px !important;
     color: $lightblue;
     font-weight: 400;
-    @media screen and (max-width: 620px) {
-     font-size: 40px !important;
-    }
   }
   .logo-img {
     height: 60px;
@@ -507,18 +469,11 @@
     width: 500px !important;
     @media screen and (max-width: 620px) {
       height: fit-content;
-      width: 380px !important;
     }
   }
 
   .blog-button {
     margin-top: 120%;
-      margin-left: 22%;
-
-    @media screen and (max-width: 620px) {
-      margin-top: 140%;
-      margin-left: 25%;
-    }
   }
 
   .carousel-control-next-icon {
@@ -526,9 +481,6 @@
     background-color: rgb(175, 174, 174);
     padding: 5px 20px;
     height: 1.5rem !important;
-    @media screen and (max-width: 620px) {
-      display: none;
-    }
   }
   .carousel-control-prev-icon {
     margin-top: 650px;
@@ -536,9 +488,6 @@
     background-color: rgb(175, 174, 174);
     padding: 5px 20px;
     height: 1.5rem !important;
-    @media screen and (max-width: 620px) {
-      display: none;
-    }
   }
 }
 .after {

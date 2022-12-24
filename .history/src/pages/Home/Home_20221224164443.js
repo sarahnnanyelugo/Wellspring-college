@@ -268,7 +268,7 @@ export const Home = () => {
         <div className="col-md-6 atheletics-slider-container">
           <div className="after"></div>
 
-          <div className="col-md-12 flexy athletics-inner">
+          <div className="col-md-12 flexy " >
             {" "}
             <div className="col-md-7">
               <div className="flexy flexyM">
