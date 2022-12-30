@@ -18,7 +18,7 @@ function NavBar({ sticky }) {
   return (
     <div className={sticky ? "navContainer navbar-sticky" : "navContainer"}>
       <div className="col-md-12 flexy">
-        <div className="col-md-3">&nbsp;</div>
+        <div className="col-md-">&nbsp;</div>
         <div className="col-md-1">
           <button onClick={handleShow} className="menu-icon me-2">
             <span>

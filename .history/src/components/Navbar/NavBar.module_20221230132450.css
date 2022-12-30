@@ -53,7 +53,7 @@
         position: relative;
         z-index: 1;
         height: 16vw;
-        
+        float:right !important;
 
     }
 
@@ -61,8 +61,4 @@
 
 
 
-@media screen and (min-width:620px){
-    .imgContent{
-        float:right ;
-    }
-}
+

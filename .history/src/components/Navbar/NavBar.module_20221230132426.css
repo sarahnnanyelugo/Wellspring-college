@@ -8,7 +8,7 @@
     /* margin: 0 auto; */
     /* max-height: 5rem; */
     
-    padding-left:120px;
+    /* padding-left:120px; */
     padding-right:120px;
 
 }
@@ -53,7 +53,7 @@
         position: relative;
         z-index: 1;
         height: 16vw;
-        
+        float:right !important;
 
     }
 
@@ -61,8 +61,4 @@
 
 
 
-@media screen and (min-width:620px){
-    .imgContent{
-        float:right ;
-    }
-}
+
