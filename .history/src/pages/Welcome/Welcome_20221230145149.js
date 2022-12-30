@@ -46,7 +46,7 @@ export const Welcome = () => {
 
           <div className="col-md-12 flexy" style={{ height: "fit-content" }}>
             <div className="col-md-9 page-content">
-              <div className="col-md-11 col-12">
+              <div className="col-md-11">
                 {" "}
                 <p>
                   All parents want their child to attend a great school – not

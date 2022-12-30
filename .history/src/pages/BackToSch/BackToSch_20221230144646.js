@@ -138,7 +138,7 @@ export const BackToSch = () => {
                 <div className="value-header col-md-12">
                   <h4>Summer Assignments</h4>
                 </div>
-                <div className="values col-md-12 core">
+                <div className="values col-md-12">
                   <p>
                     For information on everything from optional summer reading
                     to required assignments, visit your division’s academic

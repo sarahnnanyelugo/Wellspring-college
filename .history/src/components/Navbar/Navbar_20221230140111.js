@@ -79,7 +79,7 @@ function NavBar({ sticky }) {
                 <span className="content2 flexy">
                   <div>
                     <Link to={"./welcome"}>Welcome</Link>
-                    <Link to={"back-to-school"}>Back to School</Link>
+                    <Link to={"back"}>Back to School</Link>
                     <Link to={"#"}>Campus Health</Link>
                     <Link to={"#"}>Faculty Fellows</Link>
                     <Link to={"#"}>Phylosophy</Link>

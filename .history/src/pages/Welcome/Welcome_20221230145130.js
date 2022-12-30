@@ -46,34 +46,7 @@ export const Welcome = () => {
 
           <div className="col-md-12 flexy" style={{ height: "fit-content" }}>
             <div className="col-md-9 page-content">
-              <div className="col-md-11 col-12">
-                {" "}
-                <p>
-                  All parents want their child to attend a great school – not
-                  just a good school. When my wife and I moved our family to
-                  Orlando several years ago, we found a great school in The
-                  First Academy. On the first day of the new school year, I
-                  watched with apprehension from a second story window as my
-                  middle child walked onto a playground crowded with unfamiliar
-                  faces. With a lump in my throat, I watched as he stood alone
-                  with his hands in his pockets, obviously filled with
-                  uncertainty and nearly paralyzed by fear. What happened next
-                  told me much about what makes The First Academy a great
-                  school. It turns out that I wasn’t the only one observing. His
-                  teacher saw the worry on his small, furrowed brow, too. She
-                  approached my son, took him by the hand, and walked him toward
-                  the monkey bars. I could see her bend down and introduce him
-                  to several boys who were playing together. Within moments,
-                  those boys were welcoming my son into their fold, and they
-                  have since become treasured friends. That moment was powerful
-                  for me as I observed a great teacher in action. Great teachers
-                  understand that true education involves more than just
-                  teaching the mind – it begins with reaching the heart. Great
-                  teachers understand that students aren’t interested in finding
-                  out how much a teacher knows until they find out how much a
-                  teacher cares.
-                </p>
-              </div>
+             <div></div></div>
             </div>
 
             <div className="side-nav2 col-md-3">
