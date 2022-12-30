@@ -13,14 +13,7 @@
     margin-left:-250px;
   }
 
-  .btn1{
-   @media screen and (max-width:620px){
-     font-size:12px !important;
-    margin:0 !important;
-    padding: 0 !important;
-    // width:190px !important
-   }
-  }
+  .btn1
   .tabs {
     position: relative;
     display: flex;
