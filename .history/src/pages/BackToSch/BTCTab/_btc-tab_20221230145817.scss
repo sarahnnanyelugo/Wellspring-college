@@ -23,6 +23,7 @@
   
  
   
+  
   .tabby-tab {
     flex: 1;
    
@@ -43,7 +44,7 @@ font-size:16px;
     width:130px !important;
     cursor: pointer;
     transition: linear 2s ease;
-    
+    @media screen and (max-width:620px)
   
   }
 
